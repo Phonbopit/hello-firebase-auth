@@ -1,0 +1,19 @@
+{
+    "extends": ["react-app", "standard", "prettier", "prettier/standard"],
+    "plugins": ["import", "prettier", "standard"],
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+    "env": {
+        "node": true,
+        "es6": true,
+        "jest": true
+    },
+    "rules": {
+        "space-before-function-paren": 0,
+        "new-cap": 0,
+        "jsx-a11y/href-no-hash": 0,
+        "no-extra-semi": 1,
+        "prettier/prettier": 1
+    }
+}
